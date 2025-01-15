@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "movies", # Add this line to make template accessible
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
