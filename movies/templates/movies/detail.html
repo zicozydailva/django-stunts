@@ -1,1 +1,16 @@
-{{movie}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Details</title>
+  </head>
+  <body>
+    <div>
+      <p>{{movie.title}}</p>
+      <p>{{movie.year}}</p>
+    </div>
+
+    <button><a href="/movies/delete/{{movie.id}}">Delete</a></button>
+  </body>
+</html>
